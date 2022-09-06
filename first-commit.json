@@ -3,6 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {},
     "variables": {},
-    "resources": [],
+    "resources": [{
+        "name": "storageaccount1",
+        "type": "Microsoft.Storage/storageAccounts",
+        "apiVersion": "2009-04-01",
+        "location": "westeurope",
+        "sku": {"name":"Standard_LRS"},
+        "kind":"StorageV2"
+    }],
     "outputs": {}
 }
